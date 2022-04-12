@@ -10,7 +10,7 @@ namespace Projekat_Prodavnica
     {
         public string MyConection()
         {
-            string con = "Data Source = DESKTOP-MDQ23VJ; Initial Catalog = Prodavnica; Integrated Security = True";
+            string con = "Data Source = DESKTOP-MDQ23VJ; Initial Catalog = Prodavnica; Integrated Security = True ";
             return con;
         }
     }
