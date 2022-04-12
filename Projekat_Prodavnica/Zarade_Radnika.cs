@@ -171,6 +171,7 @@ namespace Projekat_Prodavnica
             if (ime_kolone == "Edit_Radnika")
             {
 
+
                 cmbRadnik.SelectedItem = dataGrid_ZaradeRadnika.Rows[e.RowIndex].Cells[2].Value.ToString();
                 dtPeriodOd.Value = DateTime.Parse(dataGrid_ZaradeRadnika.Rows[e.RowIndex].Cells[3].Value.ToString());
                 dtPeriodDo.Value = DateTime.Parse(dataGrid_ZaradeRadnika.Rows[e.RowIndex].Cells[4].Value.ToString());
